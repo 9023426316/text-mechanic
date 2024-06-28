@@ -51,9 +51,9 @@ function App() {
   }
   return (
     <>
-      <Navbar title="SIT" aboutText="Prince" mode={mode} toggleMode={toggleMode} btntext={btnText}></Navbar>
+      <Navbar title="Text Mechanic"  mode={mode} toggleMode={toggleMode} btntext={btnText}></Navbar>
       <Alert alert={alert}/>
-      <TextForm heading="Intexr Text to Analyse Below" mode={mode} toggleMode={toggleMode} showAlert={showAlert}></TextForm>
+      <TextForm heading="Enter Text to Analyse Below" mode={mode} toggleMode={toggleMode} showAlert={showAlert}></TextForm>
     </>
   );
 }
